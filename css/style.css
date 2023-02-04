@@ -1,6 +1,59 @@
-body{
-    background-color: #101010;
-    font-family: 'Roboto Mono', monospace;   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
 }
 
+body{
+    background-color: #101010;
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    word-break: break-all;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+a {
+    text-decoration: none;
+    color: #74746d;
+}
+
+.content-main {
+   margin: auto;
+}
+
+.content-main .project {
+    border: 1px solid #101010;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 6px;
+    margin: 25px;
+}
+
+.content-main .project div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-main .project .date-create {
+    color: #74746d;
+    border: 1px solid #101010;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
+.content-main .project .Language {
+    color: #74746d;
+}
+.content-main .project div .tittle {
+    color: #74746d;
+    
+}
 
