@@ -20,7 +20,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #74746d;
+    color: white;
 }
 
 .content-main {
@@ -43,17 +43,17 @@ a {
 }
 
 .content-main .project .date-create {
-    color: #74746d;
+    color: white;
     border: 1px solid #101010;
     border-radius: 10px;
     padding: 5px 10px;
     font-size: 0.9em;
 }
 .content-main .project .Language {
-    color: #74746d;
+    color: white;
 }
 .content-main .project div .tittle {
-    color: #74746d;
+    color: white;
     
 }
 
